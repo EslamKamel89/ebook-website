@@ -1,1 +1,17 @@
+:root {
+  --primary-color: #c167ef;
+  --secondary-color: #10bcee;
+  --dark-color: #2b3041;
+  --light: #f3f6f9;
+}
 
+.btn.btn-primary {
+  color: var(--light) !important;
+}
+.btn:hover {
+  color: var(--secondary-color) !important;
+}
+.header {
+  background: url("../images/header-background.jpg") center no-repeat;
+  background-size: cover;
+}
