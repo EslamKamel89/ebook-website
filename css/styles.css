@@ -5,12 +5,18 @@
   --light: #f3f6f9;
 }
 
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
 .btn.btn-primary {
   color: var(--light) !important;
 }
+
 .btn:hover {
   color: var(--secondary-color) !important;
 }
+
 .header {
   background: url("../images/header-background.jpg") center no-repeat;
   background-size: cover;
